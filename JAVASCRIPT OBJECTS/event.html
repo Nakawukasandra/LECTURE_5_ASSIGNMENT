@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+</head>
+<body>
+    <h1>EVENTS</h1>
+    <P>HTML Events are "things" that happen to HTML Elements.<br>When JavaScript is used in HTML pages,<br>
+    JavaScript can "react" on these events</P>
+    <pre></pre>
+    <p>An HTML event can be something the browser does, or something the user does.</p>
+    <pre> </pre>
+
+    <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+    <pre> </pre>
+    
+    <h2><b>EXERCISE2 EVENTS</b></h2>
+    <div><i>BUTTON ELEMEN</i>T</div>
+    <button onclick="alertJane()">Click  on me to Alert Jane</button>
+
+<script>
+    function alertJane() {
+        alert('Jane, someone clicked the button!');
+    }
+</script>
+<pre> </pre>
+
+<div><i>TEXT INPUT</i></div>
+<input type="text" id="textInput" placeholder="logInputValue()">
+
+<script>
+    function logInputValue() {
+        var inputValue = document.getElementById('inputField').value;
+        console.log('Input value:', inputValue);
+    }
+</script>
+<pre> </pre>
+<a href="./eventexercise.html">back to eventexercise</a>
+
+</body>
+</html>

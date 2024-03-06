@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEMENTS</title>
+    <style>
+        #colorChangeDiv {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            transition: background-color 0.3s ease;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>ELEMENT WHICH TURNS RED</h1>
+<div id="colorChangeDiv" onmouseover="changeColor()"></div>
+
+<script>
+    function changeColor() {
+        var divElement = document.getElementById('colorChangeDiv');
+        divElement.style.backgroundColor = 'red';
+    }
+</script>
+<pre> </pre>
+<a href="./event.html">back to event</a>
+    
+</body>
+</html>
